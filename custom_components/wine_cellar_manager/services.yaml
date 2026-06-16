@@ -1,0 +1,3 @@
+rebuild_ready:
+  name: Rebuild ready-to-drink flags
+  description: Recomputes derived ready-to-drink values for all bottles.

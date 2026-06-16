@@ -1,0 +1,33 @@
+{
+  "title": "Wine Cellar Manager",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Wine Cellar Manager",
+        "data": {
+          "title": "Integration title"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Wine Cellar Manager is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Wine Cellar Manager options",
+        "data": {
+          "image_base_path": "Default image base path",
+          "image_upload_dir": "Server upload folder under /config",
+          "demo_enrichment": "Enable demo enrichment hooks",
+          "ai_provider": "AI Intelligence Provider",
+          "gemini_api_key": "Gemini API key",
+          "gemini_model": "Gemini model",
+          "perplexity_api_key": "Perplexity Pro API key",
+          "perplexity_model": "Perplexity model"
+        }
+      }
+    }
+  }
+}

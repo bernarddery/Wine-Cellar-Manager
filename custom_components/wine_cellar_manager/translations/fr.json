@@ -1,0 +1,33 @@
+{
+  "title": "Gestionnaire de cave à vin",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer le gestionnaire de cave à vin",
+        "data": {
+          "title": "Titre de l'intégration"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Le gestionnaire de cave à vin est déjà configuré."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options du gestionnaire de cave à vin",
+        "data": {
+          "image_base_path": "Chemin de base par défaut des images",
+          "image_upload_dir": "Dossier réseau de téléversement sous /config",
+          "demo_enrichment": "Activer les crochets d'enrichissement démo",
+          "ai_provider": "Fournisseur d'intelligence artificielle",
+          "gemini_api_key": "Clé d'API Gemini",
+          "gemini_model": "Modèle Gemini",
+          "perplexity_api_key": "Clé d'API Perplexity Pro",
+          "perplexity_model": "Modèle Perplexity"
+        }
+      }
+    }
+  }
+}

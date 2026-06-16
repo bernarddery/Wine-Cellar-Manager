@@ -1,0 +1,7 @@
+{
+  "name": "Wine Cellar Manager",
+  "type": "integration",
+  "render_readme": true,
+  "country": ["CA"],
+  "homeassistant": "2024.1.0"
+}

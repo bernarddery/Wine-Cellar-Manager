@@ -1,0 +1,17 @@
+{
+  "domain": "wine_cellar_manager",
+  "name": "Wine Cellar Manager",
+  "version": "1.0.0",
+  "documentation": "https://github.com/bernarddery/Wine-Cellar-Manager",
+  "issue_tracker": "https://github.com",
+  "config_flow": true,
+  "integration_type": "service",
+  "codeowners": [
+    "bernarddery"
+  ],
+  "requirements": [
+    "google-genai>=0.1.1",
+    "ImageHash==4.3.2"
+  ],
+  "iot_class": "local_polling"
+}
